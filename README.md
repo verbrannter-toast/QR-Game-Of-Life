@@ -31,6 +31,8 @@ Keyboard shortcuts only work on desktop browsers (mobile has no physical keyboar
 3. Since most scanners won't auto-open `data:` links, copy the decoded text and paste it into your browser's address bar.
 4. The simulation opens and runs entirely offline without a server or internet connection needed.
 
+If you only want to see what it looks like you can use this hosted [link](https://verbrannter-toast.github.io/QR-Game-Of-Life/gameoflife-readable.html)
+
 ## Additional info incase you want to edit this
 
 A few gotchas discovered along the way:
