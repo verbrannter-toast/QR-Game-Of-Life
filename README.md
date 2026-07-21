@@ -9,8 +9,8 @@ The QR code encodes a `data:` URI, which lets a browser render a complete HTML p
 
 ## Files
 
-- **`game-of-life.code`** - the minified, percent-encoded single-line `data:` URI. This is the exact string that gets encoded into the QR code.
-- **`game-of-life-readable.html`** - a readable, commented version of the same logic, for reference only. Not meant to be encoded. It's just documentation.
+- **`gameoflife.code`** - the minified, percent-encoded single-line `data:` URI. This is the exact string that gets encoded into the QR code.
+- **`gameoflife-readable.html`** - a readable, commented version of the same logic, for reference only. Not meant to be encoded. It's just documentation.
 
 ## Controls
 
