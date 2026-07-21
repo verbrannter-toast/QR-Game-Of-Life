@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <!--
-  This file is the "readable" reference copy. The actual QR code encodes a
-  minified, percent-encoded single-line data:text/html URI (see the chat
-  history / minified version) — this file exists purely for documentation.
+  This file is the "readable" reference copy. 
+  Although it also works as a standalone HTML file, the actual QR-Code encodes a minified, percent-encoded single-line data:text/html URI (see the minified version).
+  This file exists purely for documentation.
 
-  Grid: 40x40 cells, rendered on a tiny <canvas> and stretched via CSS to
-  fill the screen. image-rendering:pixelated keeps the cells crisp instead
-  of blurry when scaled up.
+  Grid: 40x40 cells, rendered on a tiny <canvas> and stretched via CSS to fill the screen. image-rendering:pixelated keeps the cells crisp instead of blurry when scaled up.
 -->
 <html>
 <head>
@@ -22,7 +20,7 @@
     background: #000;
     width: 100vw;
     height: 88vh; /* the bottom 12vh reserved for the control bar */
-    image-rendering: pixelated; /* Nearest-neighbor scaling: keeps 40x40 cells sharp instead of blurry when stretched to fill the screen */
+    image-rendering: pixelated; /* nearest-neighbor scaling: keeps 40x40 cells sharp instead of blurry when stretched to fill the screen */
   }
 
   #controls {
