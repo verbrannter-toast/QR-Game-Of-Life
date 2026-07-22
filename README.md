@@ -27,7 +27,7 @@ Keyboard shortcuts only work on desktop browsers (mobile has no physical keyboar
 ## Usage
 
 1. Generate a QR code from the contents of the `data:` URI file or use the QR-Code above.
-2. Scan it with your phone's camera.
+2. Scan it with your phone's camera (I noticed that the built-in Scanner of iPhones fails to detect the content of the QR-Code. Use a third party QR-Code Scanner App, an Android phone or paste the contents of the [gameoflife.code](gameoflife.code) file into your browser instead)
 3. Since most scanners won't auto-open `data:` links, copy the decoded text and paste it into your browser's address bar.
 4. The simulation opens and runs entirely offline without a server or internet connection needed.
 
