@@ -37,6 +37,6 @@ If you only want to see what it looks like you can use this hosted [link](https:
 
 A few gotchas discovered along the way:
 
-- **Most QR scanner apps won't auto-open `data:` links.** They hand off the decoded text to the system browser via a "content-initiated navigation," and browsers deliberately block that for `data:` URLs (it's a long-standing anti-phishing measure). You'll usually need to copy the decoded text and paste it into the address bar manually — pasting directly into the address bar *is* allowed by design.
-- **Unescaped `#` breaks everything.** Any raw `#` (e.g. in a hex color like `#0f0`) is parsed as a URL fragment separator — everything after it gets silently dropped from the actual page content. All colors here are percent-encoded (`%23...`) to avoid this.
+- **Most QR scanner apps won't auto-open `data:` links.** They hand off the decoded text to the system browser via a "content-initiated navigation," and browsers deliberately block that for `data:` URLs (it's a long-standing anti-phishing measure). You'll usually need to copy the decoded text and paste it into the address bar manually. Pasting directly into the address bar is allowed by design.
+- **Unescaped `#` breaks everything.** Any raw `#` (e.g. in a hex color like `#0f0`) is parsed as a URL fragment separator. Everything after it gets silently dropped from the actual page content. All colors here are percent-encoded (`%23...`) to avoid this.
 - **Other reserved/special characters are percent-encoded too** (`"` → `%22`, `<`/`>` → `%3C`/`%3E`, `%` → `%25`) as insurance against clipboard tools or keyboards mangling raw characters (e.g. straight quotes auto-converted to curly quotes) during the scan → copy → paste round trip.
