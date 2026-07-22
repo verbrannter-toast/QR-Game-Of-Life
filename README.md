@@ -1,4 +1,8 @@
 # QR-Game-Of-Life
+
+![Gif](https://github.com/user-attachments/assets/144eed1c-cdc7-49b4-9225-ac7238a7748d)
+
+
 This is a version of Conway's Game Of Life fully contained inside of a single QR-Code.
 
 It requires no internet connection or special app to run, just your phone and any standard browser. The entire simulation (HTML, CSS, and JS) lives inside a data:text/html,... URI small enough to fit in a scannable QR code.
